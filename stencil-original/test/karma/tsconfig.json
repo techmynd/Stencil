@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "target": "es5",
+    "outDir": "www",
+    "baseUrl": ".",
+    "paths": {
+      "@stencil/core": ["../../"]
+    }
+  },
+  "include": [
+    "test-app/components.d.ts",
+    "test-app/**/*.spec.ts",
+    "test-app/**/*.tsx",
+    "test-app/util.ts",
+    "test-sibling/**/*.spec.ts",
+    "test-sibling/**/*.tsx"
+  ]
+}
