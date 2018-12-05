@@ -1,0 +1,11 @@
+{
+  "name": "app-one-stenil",
+  "version": "1.0.0",
+  "description": "stencil project",
+  "main": "index.js",
+  "author": "mjk",
+  "license": "MIT",
+  "dependencies": {
+    "@stencil/core": "^0.16.0"
+  }
+}
